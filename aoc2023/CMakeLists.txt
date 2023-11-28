@@ -15,7 +15,7 @@ if(${TARGET_ARCH} STREQUAL "x64")
       "/usr/local/include/c++/14.0.0/x86_64-linux-gnu/")
 else()
     include_directories(BEFORE SYSTEM
-      "/usr/local/include/c++/14.0.0/arm64-linux-gnu/")
+      "/usr/local/include/c++/14.0.0/aarch64-linux-gnu/")
 endif()
 
 add_subdirectory(demo)
