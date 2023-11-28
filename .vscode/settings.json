@@ -1,0 +1,17 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format-17",
+    "clangd.path": "/usr/bin/clangd-17",
+    "clangd.arguments": [
+        "--background-index",
+        "--compile-commands-dir=${workspaceFolder}/build/"
+    ],
+    "cmake.sourceDirectory": "${workspaceFolder}/aoc2023",
+    "cmake.configureOnOpen": true,
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.configureSettings": {
+        "TARGET_ARCH": "${buildKitTargetArch}",
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+}
