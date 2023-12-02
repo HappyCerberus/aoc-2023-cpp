@@ -12,6 +12,11 @@
     "cmake.configureSettings": {
         "TARGET_ARCH": "${buildKitTargetArch}",
     },
+    "cmake.debugConfig": {
+        "miDebuggerPath": "/usr/local/bin/gdb"
+    },
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
 }
