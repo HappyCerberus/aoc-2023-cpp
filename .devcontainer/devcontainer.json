@@ -1,5 +1,5 @@
 {
-	"image": "happycerberus/devenv-trunk:20231128",
+	"image": "happycerberus/devenv-trunk:20231203",
 	"customizations": {
 		"vscode": {
 			"extensions": [
